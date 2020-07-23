@@ -6,6 +6,7 @@ Created on Sat May 30 11:10:37 2020
 """
 
 import sklearn
+#hello how are you
 from sklearn.feature_extraction.text import CountVectorizer
 text = ["The quick brown fox jumped over the lazy dog."]
 
@@ -49,22 +50,3 @@ from keras.preprocessing.text import one_hot
 onehot = one_hot(text, round(vocab_len*1.3))
 
 onehot
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
